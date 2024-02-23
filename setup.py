@@ -12,7 +12,7 @@ requires = [
 
 # Setting up
 setup(
-    name="mpfmlops",
+    name="mlopspackages",
     version=VERSION,
     author="Andre Mediote de Sousa ",
     author_email="mediote90@gmail.com",
