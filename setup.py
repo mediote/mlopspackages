@@ -14,7 +14,7 @@ requires = [
 setup(
     name="mlopspackages",
     version=VERSION,
-    author="Andre Mediote de Sousa ",
+    author="Andre Mediote de Sousa",
     author_email="mediote90@gmail.com",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
