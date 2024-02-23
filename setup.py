@@ -21,8 +21,8 @@ setup(
     packages=find_packages(),
     install_requires=requires,
     dependency_links=[
-        'https://github.com/mediote/mlopspackages.git#egg=search',
-        'https://github.com/mediote/mlopspackages.git#egg=solr',
+        'https://github.com/mediote/mlopspackages.git#egg=utils.search',
+        'https://github.com/mediote/mlopspackages.git#egg=utils.solr',
     ],
     keywords=['python', 'first package'],
     classifiers=[
