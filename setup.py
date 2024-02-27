@@ -18,8 +18,7 @@ setup(
     install_requires=[
         'boto3',
         'pandas',
-        'requests',
-        'sqlalchemy'
+        'requests'
     ],
     keywords=['python', 'mlops', 'reusable packages'],
     classifiers=[
