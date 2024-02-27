@@ -2,7 +2,8 @@ from io import BytesIO
 
 import boto3
 import pandas as pd
-from botocore.exceptions import ClientError
+from botocore.exceptions import (ClientError, NoCredentialsError,
+                                 PartialCredentialsError)
 
 
 def get_minio_client(endpoint_url: str, aws_access_key_id: str, aws_secret_access_key: str) -> boto3.client:
