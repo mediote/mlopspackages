@@ -19,8 +19,8 @@ setup(
         'boto3',
         'pandas',
         'requests',
-        'sqlalchemy'
-
+        'sqlalchemy',
+        'pymysql'
     ],
     keywords=['python', 'mlops', 'reusable packages'],
     classifiers=[
